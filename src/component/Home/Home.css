@@ -1,0 +1,197 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: url
+}
+
+.container h2{
+  margin: 40px;
+}
+
+.container .sec-3{
+  text-align: center;
+}
+
+.container .sec-3 p{
+  line-height: 10px;
+}
+
+/* Homepage styles */
+.homepage {
+  overflow-x: hidden;
+}
+
+.hero {
+  background: url('C:\Users\Asus\Desktop\NewWebsite\project2\project2\src\component\images\pic1 (1).jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.btn {
+
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #57606f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2f3542;
+}
+
+
+.about-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+#Sec-2 {
+  justify-content: center;
+  text-align: center;
+
+}
+
+#Sec-2 p {
+  font-size: 15px;
+  padding: 0;
+}
+
+
+.line {
+  background-color: black;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #555;
+}
+
+.services-section {
+  background-color: #fafafa;
+  padding: 40px 0;
+
+}
+
+.services-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #3a2323;
+}
+
+.services-grid {
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  text-align: center;
+  flex: 0 1 calc(33.333% - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+
+.service:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #555;
+}
+
+.service i {
+  font-size: 30px;
+  margin: 10px;
+  justify-items: center;
+
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.gallery {
+  max-width: 1000px; /* Set max width of the gallery */
+  margin: 0 auto; /* Center the gallery horizontally */
+  text-align: center;
+  border: 2px solid blue;
+  background: url('C:\Users\Asus\Desktop\NewWebsite\project2\project2\src\component\images\pic1 (1).jpg') center/cover no-repeat;
+  
+}
+
+.gallery h1{
+  margin:  10px ;
+  color: white;
+
+}
+.image-container .imgEffect:hover {
+  border: 1px solid #777;
+}
+
+.image-container {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 10px; /* Gap between images */
+  padding: 20px;
+}
+
+.image-container img {
+  width: 100%; /* Make images fill the grid cells */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
