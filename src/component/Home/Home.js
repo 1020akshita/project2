@@ -43,32 +43,34 @@ const Home = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero at turpis elementum, eget accumsan arcu luctus. Ut auctor, nisi vel consectetur malesuada, nisi mi feugiat dolor, id tempus eros libero sed leo.</p>
                 </div>
             </section> */}
-            {/* <section className="services-section"> */}
-            <div className="container">
-                <h2>Our Services</h2>
+            <section className="services-section">
+                <div className="div-box">
+                    <div className="container">
+                        <h2>Our Services</h2>
 
-                <div className="services-grid">
-                    <div className="service">
-                        <h3>Web Design</h3>
-                        <i class="fa-solid fa-user-tie"></i>
-                        <div className="line"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div className="service">
-                        <h3>Graphic Design</h3>
-                        <i class="fa-solid fa-cart-flatbed-suitcase"></i>
-                        <div className="line"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div className="service">
-                        <h3>Marketing</h3>
-                        <i class="fa-solid fa-suitcase "></i>
-                        <div className="line"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div className="services-grid">
+                            <div className="service">
+                                <h3>Web Design</h3>
+                                <i className="fa-solid fa-user-tie"></i>
+                                <div className="line"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div className="service">
+                                <h3>Graphic Design</h3>
+                                <i className="fa-solid fa-cart-flatbed-suitcase"></i>
+                                <div className="line"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div className="service">
+                                <h3>Marketing</h3>
+                                <i className="fa-solid fa-suitcase "></i>
+                                <div className="line"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {/* </section> */}
+            </section>
 
             <section className="services-section">
                 <div className="container">
@@ -83,47 +85,53 @@ const Home = () => {
                 </div>
             </section>
 
+
+
             <section className="services-section">
-                <div className="container">
-                    <div className="gallery">
-                        <h1>Gallery Section</h1>
-                        <div className="image-container ">
-                            <a target="_blank" href="../images/img2.jpg">
-                                <img className='imgEffect' src={img2} />
-                            </a>
+                <div className="gallery-box">
+                    <div className="container">
+                        <div className="gallery">
+                            <h1>Gallery Section</h1>
+                            <div className="image-container ">
+                                <a target="_blank" href="../images/img2.jpg">
+                                    <img className='imgEffect' src={img2} />
+                                </a>
 
-                            <a target="_blank" href="../images/3.jpg">
-                                <img className='imgEffect' src={img3} />
-                            </a>
+                                <a target="_blank" href="../images/3.jpg">
+                                    <img className='imgEffect' src={img3} />
+                                </a>
 
-                            <a target="_blank" href="../images/4.jpg">
-                                <img className='imgEffect' src={img4} />
-                            </a>
+                                <a target="_blank" href="../images/4.jpg">
+                                    <img className='imgEffect' src={img4} />
+                                </a>
 
-                            <a target="_blank" href="../images/5.jpg">
-                                <img className='imgEffect' src={img5} />
-                            </a>
+                                <a target="_blank" href="../images/5.jpg">
+                                    <img className='imgEffect' src={img5} />
+                                </a>
 
-                            <a target="_blank" href="../images/6.jpg">
-                                <img className='imgEffect' src={img6} />
-                            </a>
-                            <a target="_blank" href="../images/7.jpg">
-                                <img className='imgEffect' src={img7} />
-                            </a>
+                                <a target="_blank" href="../images/6.jpg">
+                                    <img className='imgEffect' src={img6} />
+                                </a>
+                                <a target="_blank" href="../images/7.jpg">
+                                    <img className='imgEffect' src={img7} />
+                                </a>
 
-                            <a target="_blank" href="../images/8.jpg">
-                                <img className='imgEffect' src={img8} />
-                            </a>
+                                <a target="_blank" href="../images/8.jpg">
+                                    <img className='imgEffect' src={img8} />
+                                </a>
 
-                            <a target="_blank" href="../images/9.jpg">
-                                <img className='imgEffect' src={img9} />
-                            </a>
+                                <a target="_blank" href="../images/9.jpg">
+                                    <img className='imgEffect' src={img9} />
+                                </a>
 
-                            {/* Add more images as needed */}
+                                {/* Add more images as needed */}
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+
 
             <section className="services-section">
                 <div className="container">
